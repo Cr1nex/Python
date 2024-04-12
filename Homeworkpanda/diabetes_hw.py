@@ -24,7 +24,7 @@ def print_modded(db):
 def print_stats(db):  
    db_dc =  db.describe()
    print(db_dc)
-   db_dc_t= db_dc.T
+   db_dc_t = db_dc.T
    print(db_dc_t)
 
 def replace_zero():
